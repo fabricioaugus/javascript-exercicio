@@ -1,0 +1,35 @@
+<canvas width="600px" height="400px">
+
+</canvas>
+<script>
+
+    var tela = document.querySelector("canvas");
+    var pincel = tela.getContext("2d");
+
+    pincel.fillStyle = 'dimgray';
+    pincel.fillRect(0,0,600,400);
+    /* Retângulo 1: 350, 300 (cabeça). */
+    pincel.fillStyle = "darkgreen";
+    pincel.fillRect(0,0,350,300);
+    /*Retângulos 2 e 3: 90, 90 (olhos). */
+    pincel.fillStyle = "black";
+    pincel.fillRect(50,40,90,90);
+    pincel.fillStyle = "black";
+    pincel.fillRect(200,40,90,90);
+    /*Retângulo 4: 70, 100 (nariz). */
+    pincel.fillStyle = "black";
+    pincel.fillRect(140,130,60,100);
+
+    // Retângulos 5 e 6: 40, 110 (parte da boca)
+    pincel.fillStyle = "black";
+    pincel.fillRect(100,190,40,110);
+    pincel.fillStyle = "black";
+    pincel.fillRect(200,190,40,110);
+    
+
+
+
+
+
+
+</script>

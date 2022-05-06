@@ -1,0 +1,25 @@
+<meta charset="utf-8">
+<script >
+	
+
+function fibonacci(n){
+	if(n==0){
+		return 0;
+	}else{
+		if(n==1){
+		      return 1;
+		      }else{
+		      		if (n==2) {
+		      			return 1;
+		      		}
+		       		else {
+		       			return fibonacci(n-1)+fibonacci(n-2);
+		       		}
+		      }
+	}
+}
+	for(var i=0 ; i < 30 ; i++ ){
+		document.write(fibonacci(i));
+		document.write("</br>");
+	}
+</script>
